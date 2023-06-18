@@ -1,0 +1,46 @@
+.chatListItem {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+
+  padding: 15px;
+  border-radius: 10px;
+
+  .profileNstring {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      width: 50px;
+      object-fit: contain;
+      margin-right: 20px;
+    }
+
+    .nameNmessage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .name {
+        font-weight: bold;
+        font-size: medium;
+        color: #000;
+      }
+
+      .message {
+        margin-top: 5px;
+        color: #9b9b9b;
+        font-size: small;
+      }
+    }
+  }
+
+  .date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #9b9b9b;
+  }
+}

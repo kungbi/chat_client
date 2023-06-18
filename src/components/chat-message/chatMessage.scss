@@ -1,0 +1,48 @@
+.chatMessage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+
+  .container {
+    .text {
+      display: flex;
+      padding: 15px;
+
+      font-size: 17px;
+
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    .date {
+      color: #b0b0b0;
+      font-size: small;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  }
+}
+
+.me {
+  justify-content: right;
+
+  .container {
+    .text {
+      background-color: #5b17fd;
+      color: #e2c5fa;
+
+      border-top-left-radius: 10px;
+    }
+  }
+}
+
+.friend {
+  justify-content: left;
+  .container {
+    .text {
+      background-color: #ffffff;
+
+      border-bottom-right-radius: 10px;
+    }
+  }
+}

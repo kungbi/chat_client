@@ -1,0 +1,28 @@
+.friendListItem {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: row;
+
+  padding: 15px;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  img {
+    width: 50px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .name {
+      font-weight: bold;
+      font-size: medium;
+      color: #000;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main {
+  background-color: #262929;
+  min-height: 100vh;
+
+  .main_container {
+    display: flex;
+    background-color: #f8f8f8;
+    width: 390px;
+    height: 800px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    flex-direction: column;
+  }
+}

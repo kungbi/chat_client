@@ -1,0 +1,39 @@
+.FriendListSearch {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fff;
+
+  .SearchContainer {
+    display: flex;
+    flex-grow: 9;
+    align-items: center;
+    justify-content: center;
+    color: #adadad;
+
+    img {
+      height: 20px;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+
+    input {
+      outline: none;
+      border: none;
+      font-size: 16px;
+    }
+  }
+
+  .Addcontainer {
+    display: flex;
+    flex-grow: 1;
+    img {
+      height: 20px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+  }
+}
